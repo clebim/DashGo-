@@ -14,7 +14,7 @@ export const Header = () => {
       px="6"
     >
       <Text
-        fontSize="3xl"
+        fontSize="3xl "
         fontWeight="bold"
         letterSpacing="tight"
         w="64"  
@@ -77,3 +77,4 @@ export const Header = () => {
     </Flex>
   )
 }
+
