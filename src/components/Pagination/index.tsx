@@ -8,7 +8,7 @@ export const Pagination = () => {
       <Box>
         <strong>0</strong> - <strong>10</strong> de <strong>100</strong>
       </Box>
-      <Stack direction="row" spacing="2" >
+      <Stack direction={["column", "row"]} spacing="2" >
         <PaginationItem isCurrent={true} number={1}/>
         <PaginationItem number={2}/>
         <PaginationItem number={3}/>
